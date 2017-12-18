@@ -28,5 +28,20 @@ body{
 .info-header{
   width: 50%;
   margin: auto;
-  border-bottom: 1px #ddd solid; 
+  border-bottom: 1px #ddd solid;
+}
+#authors{
+   img{
+     margin-top: -50px;
+   }
+   .fa{
+     font-size: 25px;
+   }
+   .card:hover{
+     background-color: $primary;
+     color: #fff;
+     .fa{
+       color: #fff;
+     }
+   }
 }
